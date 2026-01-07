@@ -52,7 +52,7 @@
     "format:toml": "taplo format",
     "format:rs": "cargo fmt",
     "lint": "oxlint .",
-    "prepublishOnly": "napi prepublish -t npm --gh-release \"false\"",
+    "prepublishOnly": "napi prepublish -t npm",
     "test": "ava",
     "preversion": "napi build --platform && git add .",
     "version": "napi version",
@@ -107,5 +107,15 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "yarn@4.12.0"
+  "packageManager": "yarn@4.12.0",
+  "optionalDependencies": {
+    "@forgetools/napi-sample-win32-x64-msvc": "1.0.0",
+    "@forgetools/napi-sample-darwin-x64": "1.0.0",
+    "@forgetools/napi-sample-linux-x64-gnu": "1.0.0",
+    "@forgetools/napi-sample-linux-x64-musl": "1.0.0",
+    "@forgetools/napi-sample-linux-arm64-gnu": "1.0.0",
+    "@forgetools/napi-sample-darwin-arm64": "1.0.0",
+    "@forgetools/napi-sample-linux-arm64-musl": "1.0.0",
+    "@forgetools/napi-sample-win32-arm64-msvc": "1.0.0"
+  }
 }
