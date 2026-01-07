@@ -107,15 +107,5 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "yarn@4.12.0",
-  "optionalDependencies": {
-    "@forgetools/napi-sample-win32-arm64-msvc-win32-x64-msvc": "1.0.0",
-    "@forgetools/napi-sample-win32-arm64-msvc-darwin-x64": "1.0.0",
-    "@forgetools/napi-sample-win32-arm64-msvc-linux-x64-gnu": "1.0.0",
-    "@forgetools/napi-sample-win32-arm64-msvc-linux-x64-musl": "1.0.0",
-    "@forgetools/napi-sample-win32-arm64-msvc-linux-arm64-gnu": "1.0.0",
-    "@forgetools/napi-sample-win32-arm64-msvc-darwin-arm64": "1.0.0",
-    "@forgetools/napi-sample-win32-arm64-msvc-linux-arm64-musl": "1.0.0",
-    "@forgetools/napi-sample-win32-arm64-msvc-win32-arm64-msvc": "1.0.0"
-  }
+  "packageManager": "yarn@4.12.0"
 }
