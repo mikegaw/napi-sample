@@ -1,6 +1,6 @@
 {
   "name": "@forgetools/napi-sample",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
   "repository": {
@@ -107,15 +107,5 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "yarn@4.12.0",
-  "optionalDependencies": {
-    "@forgetools/napi-sample-win32-x64-msvc": "1.0.0",
-    "@forgetools/napi-sample-darwin-x64": "1.0.0",
-    "@forgetools/napi-sample-linux-x64-gnu": "1.0.0",
-    "@forgetools/napi-sample-linux-x64-musl": "1.0.0",
-    "@forgetools/napi-sample-linux-arm64-gnu": "1.0.0",
-    "@forgetools/napi-sample-darwin-arm64": "1.0.0",
-    "@forgetools/napi-sample-linux-arm64-musl": "1.0.0",
-    "@forgetools/napi-sample-win32-arm64-msvc": "1.0.0"
-  }
+  "packageManager": "yarn@4.12.0"
 }
