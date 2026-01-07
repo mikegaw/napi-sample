@@ -81,7 +81,3 @@ npm version [<newversion> | major | minor | patch | premajor | preminor | prepat
 
 git push
 ```
-
-GitHub actions will do the rest job for you.
-
-> WARN: Don't run `npm publish` manually.
