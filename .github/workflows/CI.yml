@@ -242,7 +242,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       id-token: write # Required for OIDC
-      contents: read
+      contents: write # Required to create a release
     needs:
       - lint
       - test-macOS-windows-binding
